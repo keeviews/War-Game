@@ -11,17 +11,25 @@ public class BulletController : MonoBehaviour
     float bulletSpeed;
     public Vector3 mouseposition;
     public PlayerScript playerS;
+    public Vector3 spawnPosition;
     Vector3 rotationAxis = Vector3.up;
 
     GameObject player;
     private ObjectPoolNew poolNew;
 
+
+    public void SetPosition()
+    {
+        transform.position = GameObject.Find("Gun").transform.position;
+        spawnPosition = GameObject.Find("Gun").transform.position;
+    }
+
     public void Initialise()
     {
         mouseposition.z = 0;
 
-        transform.position = GameObject.Find("Gun").transform.position;
-        gameObject.GetComponent<TrailRenderer>().enabled = true;
+       
+
 
         Quaternion randomRotation = Quaternion.Euler(
             0,
@@ -34,6 +42,8 @@ public class BulletController : MonoBehaviour
         Vector3 rotatedVector = randomRotation * direction;
 
         GetComponent<Rigidbody2D>().linearVelocity = rotatedVector * bulletSpeed * Time.deltaTime;
+
+        gameObject.GetComponent<TrailRenderer>().enabled = true;
 
         poolNew = GameObject.Find("ObjectPool").GetComponent<ObjectPoolNew>();
 

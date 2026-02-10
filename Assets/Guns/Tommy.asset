@@ -14,15 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Thompson SMG
   description: Submachine Gun utilized by the United States Military
-  art: {fileID: 3983602270529497539, guid: 5a7011d2acca3204ca9d8a209e0016f8, type: 3}
+  ammoType: 1
+  art: {fileID: -1222306337951713619, guid: 318357aac66f7524783dd919bacc3eaa, type: 3}
+  ingameArt: {fileID: -6874127643257395286, guid: 4d84db8e835276a4d8c3ccd2cbfa15af, type: 3}
+  outlineImage: {fileID: 8562644728997895842, guid: d14522f3ff0b82042992a7d9ab5a19b1, type: 3}
   prefab: {fileID: 324629506145604359, guid: 6692ee8a986f9fc48b0cff17e39a71fd, type: 3}
+  shootOffset: {x: -0.15, y: 0}
   GunFocusSpeed: 0.75
   MaxAccuracyVariance: 0.75
   GunUnFocusSpeed: 0.5
   GunRecoil: 0.9
   Damage: 25
+  Secondary: 0
   Automatic: 1
-  fireRate: 0.2
+  fireRate: 0.41
   reloadSpeed: 0
   currentAmmo: 20
   MaxAmmo: 20

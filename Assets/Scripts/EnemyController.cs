@@ -57,7 +57,7 @@ public class EnemyController : MonoBehaviour
 
     private bool _atShootPosition = false;
 
-    private bool Agro = false;
+    public bool Agro = false;
     bool Locating = false;
 
     [Header("Shooting")]
@@ -90,11 +90,20 @@ public class EnemyController : MonoBehaviour
     float crosshairmovmentAmount;
     float MaxAccuracyVariance;
 
+    [SerializeField] GameObject shotPoint;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("SoundArea"))
         {
             LastKnownPosition = collision.transform.position;
+            AtShootPosition = false;
+            randomInvestigationPosition = Vector3.zero;
+            enemyState = EnemyState.Investigate;
+        }
+        if (collision.gameObject.CompareTag("BulletSoundBarrier"))
+        {
+            LastKnownPosition = collision.gameObject.transform.parent.GetComponent<BulletController>().spawnPosition;
             AtShootPosition = false;
             randomInvestigationPosition = Vector3.zero;
             enemyState = EnemyState.Investigate;
@@ -105,16 +114,6 @@ public class EnemyController : MonoBehaviour
     {
         pause = Random.Range(1f, 2f);
         investigateTime = Random.Range(8f, 10f);
-    }
-
-    public void AgroEnemy()
-    {
-        Agro = true;
-    }
-
-    public void DeAgroEnemy()
-    {
-        Agro = false;
     }
 
     public bool AtShootPosition
@@ -186,10 +185,16 @@ public class EnemyController : MonoBehaviour
             Hit = true;
             Health -= 10;
         }
+
     }
 
     private void Update()
     {
+        if (Health <= 0)
+        {
+            Destroy(gameObject);
+        }
+
         crosshairmovmentAmount = Random.Range(0f, MaxAccuracyVariance);
 
         crosshairmovmentAmount = Mathf.Clamp(crosshairmovmentAmount, 0.2f, MaxAccuracyVariance);
@@ -333,6 +338,8 @@ public class EnemyController : MonoBehaviour
                 break;
 
             case EnemyState.Cover:
+                GetComponent<AIPath>().enableRotation = true;
+
                 GameObject coverpoint = findClosestCoverPoint();
                 target = coverpoint.transform.position;
 
@@ -396,10 +403,9 @@ public class EnemyController : MonoBehaviour
                 if (shootTime <= 0)
                 {
                     GameObject bullet = poolNew.enemyPool.Get();
-                    bullet.transform.position = transform.Find("Front").position;
-                    bullet
-                        .GetComponent<EnemyBulletController>()
-                        .InitializeEnemy(weapon, crosshairmovmentAmount);
+                    bullet.transform.position = shotPoint.transform.position;
+                    bullet.SetActive(true);
+                    bullet.GetComponent<EnemyBulletController>().InitializeEnemy(weapon, crosshairmovmentAmount);
                     shootTime = 1f;
                 }
 
@@ -418,9 +424,6 @@ public class EnemyController : MonoBehaviour
                     }
                 }
 
-                break;
-
-            case EnemyState.Dead:
                 break;
 
             case EnemyState.Flee:

@@ -29,6 +29,7 @@ public class ObjectPoolNew : MonoBehaviour
             },
             GameObject =>
             {
+                GameObject.GetComponent<BulletController>().SetPosition();
                 GameObject.SetActive(true);
                 GameObject.GetComponent<BulletController>().mouseposition = mousepos;
                 GameObject.GetComponent<BulletController>().playerS = playerScript;
@@ -54,7 +55,6 @@ public class ObjectPoolNew : MonoBehaviour
             },
             GameObject =>
             {
-                GameObject.SetActive(true);
                 GameObject.GetComponent<EnemyBulletController>().playerS = playerScript;
             },
             GameObject =>

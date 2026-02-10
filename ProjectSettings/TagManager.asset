@@ -14,6 +14,10 @@ TagManager:
   - ObjectPool
   - SoundArea
   - VisionCone
+  - SmallAmmo
+  - MediumAmmo
+  - LargeAmmo
+  - BulletSoundBarrier
   layers:
   - Default
   - TransparentFX
@@ -24,7 +28,7 @@ TagManager:
   - Obstacles
   - CoverPoints
   - Enemy
-  - 
+  - PickUp
   - 
   - 
   - 

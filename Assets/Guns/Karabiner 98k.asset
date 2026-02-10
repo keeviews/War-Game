@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0ef52960de652458f70a791cf9e18a, type: 3}
+  m_Name: Karabiner 98k
+  m_EditorClassIdentifier: 
+  Name: Karabiner 98k
+  description: Standard Issue Weapon of the German Military
+  ammoType: 1
+  art: {fileID: 333474181072168211, guid: cdc58912e6576784ca23ca4a2da889da, type: 3}
+  ingameArt: {fileID: 7741319193198402894, guid: 4d84db8e835276a4d8c3ccd2cbfa15af, type: 3}
+  outlineImage: {fileID: -2866013746623377486, guid: 576e9124c594b694b87f808ce14ff8fb, type: 3}
+  prefab: {fileID: 324629506145604359, guid: 6e6fb2a5ae24e4949826a0d4e9f545fa, type: 3}
+  shootOffset: {x: 0, y: 0}
+  GunFocusSpeed: 0.75
+  MaxAccuracyVariance: 0.75
+  GunUnFocusSpeed: 0.5
+  GunRecoil: 0.6
+  Damage: 25
+  Secondary: 0
+  Automatic: 0
+  fireRate: 1
+  reloadSpeed: 0
+  currentAmmo: 6
+  MaxAmmo: 6
+  SoundAreaMultiplier: 1

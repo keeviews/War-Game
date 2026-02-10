@@ -6,19 +6,23 @@ using UnityEngine.UIElements;
 public class PromptSystem : MonoBehaviour
 {
 
-    [SerializeField] TextMeshProUGUI name;
-    [SerializeField] TextMeshProUGUI description;
-    [SerializeField] TextMeshProUGUI currentAmmo;
-    [SerializeField] TextMeshProUGUI maxAmmo;
+    public TextMeshProUGUI Objectname;
+    public TextMeshProUGUI description;
+    public TextMeshProUGUI currentAmmo;
+    public TextMeshProUGUI maxAmmo;
 
     public Guns weapon;
     public GunSO gunSO;
 
     private void Update()
     {
-        name.text = weapon.name;
-        description.text = weapon.description;
         currentAmmo.text = gunSO.currentAmmo.ToString();
         maxAmmo.text = weapon.MaxAmmo.ToString();
+    }
+    
+    public void SetUpPrompt()
+    {
+        Objectname.text = weapon.name;
+        description.text = weapon.description;
     }
 }

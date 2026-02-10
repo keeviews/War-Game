@@ -39,6 +39,8 @@ public class GunRotation : MonoBehaviour
     public int ammo;
     public int maxAmmo;
     public Image selectedImage;
+    public Image holsteredImage;
+    public GameObject gunSprite;
 
     GameObject SoundArea;
     CircleCollider2D soundAreaCollider;
@@ -49,12 +51,30 @@ public class GunRotation : MonoBehaviour
     [SerializeField]
     ObjectPoolNew poolNew;
 
+    public int currentAmmo;
+
     public void ResetWeapon(int currentA)
     {
         weapon = inventory.currentWeapon;
         maxAmmo = weapon.MaxAmmo;
         ammo = currentA;
         selectedImage.sprite = weapon.art;
+        holsteredImage.sprite = inventory.holsteredWeapon.art;
+        gunSprite.GetComponent<SpriteRenderer>().sprite = weapon.ingameArt;
+
+
+        if(inventory.currentWeapon.ammoType == Guns.AmmoType.smallAmmo)
+        {
+            currentAmmo = inventory.smallAmmo;
+        }
+        if (inventory.currentWeapon.ammoType == Guns.AmmoType.mediumAmmo)
+        {
+            currentAmmo = inventory.mediumAmmo;
+        }
+        if (inventory.currentWeapon.ammoType == Guns.AmmoType.largeAmmo)
+        {
+            currentAmmo = inventory.largeAmmo;
+        }
     }
 
     private void Start()
@@ -78,6 +98,8 @@ public class GunRotation : MonoBehaviour
         maxAmmoText.text = maxAmmo.ToString();
         ammoText.text = ammo.ToString();
         weapon = inventory.currentWeapon;
+
+
         Vector3 mousepos = maincamera.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 rotation = mousepos - transform.position;
@@ -96,7 +118,30 @@ public class GunRotation : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            ammo = maxAmmo;
+            int neededAmmo = maxAmmo - ammo;
+
+            if (neededAmmo > currentAmmo) {
+
+                neededAmmo = currentAmmo;
+            }
+
+
+
+            ammo += neededAmmo;
+            currentAmmo -= neededAmmo;
+
+            if (inventory.currentWeapon.ammoType == Guns.AmmoType.smallAmmo)
+            {
+                inventory.smallAmmo -= neededAmmo;
+            }
+            if (inventory.currentWeapon.ammoType == Guns.AmmoType.mediumAmmo)
+            {
+               inventory.mediumAmmo -= neededAmmo;
+            }
+            if (inventory.currentWeapon.ammoType == Guns.AmmoType.largeAmmo)
+            {
+                inventory.largeAmmo -= neededAmmo;
+            }
         }
 
         if (ammo == 0)
@@ -125,8 +170,10 @@ public class GunRotation : MonoBehaviour
 
             if (weapon.Automatic == false)
             {
-                if (Input.GetMouseButtonDown(0))
+                nextFire -= Time.deltaTime;
+                if (Input.GetMouseButtonDown(0) && nextFire <= 0)
                 {
+                    nextFire = fireRate;
                     poolNew.pool.Get();
                     ammo -= 1;
                     playerScript.crosshairmovmentAmount += weapon.GunRecoil;

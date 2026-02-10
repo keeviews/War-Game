@@ -21,6 +21,9 @@ public class PlayerScript : MonoBehaviour
     private Image staminabar;
 
     [SerializeField]
+    private Image healthbar;
+
+    [SerializeField]
     float movementMultiplier = 1f;
 
     [SerializeField]
@@ -52,7 +55,14 @@ public class PlayerScript : MonoBehaviour
     private Guns weapon;
 
     public float stamina = 100f;
+    public float health = 100;
     private float staminastart;
+
+    public void damagePlayer(float damageAmount)
+    {
+        health -= damageAmount;
+
+    }
 
     private void Awake()
     {
@@ -82,6 +92,8 @@ public class PlayerScript : MonoBehaviour
 
         stamina = Mathf.Clamp(stamina, 0f, staminastart);
 
+        healthbar.fillAmount = health / 100;
+
         if (canSprint)
         {
             if (Input.GetKey(KeyCode.LeftShift))
@@ -89,11 +101,18 @@ public class PlayerScript : MonoBehaviour
                 movementMultiplier = 1.5f;
                 stamina -= staminadecreaseamount * Time.deltaTime;
             }
+            else
+            {
+                movementMultiplier = 1f;
+            }
+        }
+        else
+        {
+            movementMultiplier = 1f;
         }
 
         if (stamina < 100)
         {
-            movementMultiplier = 1f;
             stamina += staminaincreaseamount * Time.deltaTime;
         }
 

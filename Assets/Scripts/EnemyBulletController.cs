@@ -56,6 +56,15 @@ public class EnemyBulletController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        poolNew.DestroyEnemeyBullet(gameObject);
+        if(collision.gameObject.layer == 8)
+        {
+        }
+        else if (collision.gameObject.CompareTag("Player"))
+        {
+            player.GetComponent<PlayerScript>().damagePlayer(10);
+            poolNew.DestroyEnemeyBullet(gameObject);
+        }
+        else {             poolNew.DestroyEnemeyBullet(gameObject);
+        }
     }
 }

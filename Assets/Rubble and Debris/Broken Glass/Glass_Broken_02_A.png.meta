@@ -1,0 +1,5486 @@
+fileFormatVersion: 2
+guid: 59caf261a4d967d459052c80ee0589e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5455893545444054747
+    second: Glass_Broken_02_A_0
+  - first:
+      213: 5933763401699861015
+    second: Glass_Broken_02_A_1
+  - first:
+      213: 3350397278946448181
+    second: Glass_Broken_02_A_2
+  - first:
+      213: -4493888116811036051
+    second: Glass_Broken_02_A_3
+  - first:
+      213: -3577766556211488795
+    second: Glass_Broken_02_A_4
+  - first:
+      213: 5759663019502520192
+    second: Glass_Broken_02_A_5
+  - first:
+      213: -8649251378756095375
+    second: Glass_Broken_02_A_6
+  - first:
+      213: 6401655198944930785
+    second: Glass_Broken_02_A_7
+  - first:
+      213: 707133563185035782
+    second: Glass_Broken_02_A_8
+  - first:
+      213: -2714280081620009249
+    second: Glass_Broken_02_A_9
+  - first:
+      213: 1888919718147174726
+    second: Glass_Broken_02_A_10
+  - first:
+      213: -3669632731615537867
+    second: Glass_Broken_02_A_11
+  - first:
+      213: -6847785843665308304
+    second: Glass_Broken_02_A_12
+  - first:
+      213: -46287746270942861
+    second: Glass_Broken_02_A_13
+  - first:
+      213: 3401532333533561772
+    second: Glass_Broken_02_A_14
+  - first:
+      213: 8846415259734716876
+    second: Glass_Broken_02_A_15
+  - first:
+      213: 119537035979465558
+    second: Glass_Broken_02_A_16
+  - first:
+      213: 2792595181770946273
+    second: Glass_Broken_02_A_17
+  - first:
+      213: 514324025721407672
+    second: Glass_Broken_02_A_18
+  - first:
+      213: 4817787739907989675
+    second: Glass_Broken_02_A_19
+  - first:
+      213: -5133870101192224109
+    second: Glass_Broken_02_A_20
+  - first:
+      213: 7383225432949519781
+    second: Glass_Broken_02_A_21
+  - first:
+      213: 3895520446833539081
+    second: Glass_Broken_02_A_22
+  - first:
+      213: 5322752681877928198
+    second: Glass_Broken_02_A_23
+  - first:
+      213: 5520792732723594789
+    second: Glass_Broken_02_A_24
+  - first:
+      213: 2647256485369253195
+    second: Glass_Broken_02_A_25
+  - first:
+      213: 1630975880069055623
+    second: Glass_Broken_02_A_26
+  - first:
+      213: 4736091540975069210
+    second: Glass_Broken_02_A_27
+  - first:
+      213: 3890000937827069786
+    second: Glass_Broken_02_A_28
+  - first:
+      213: -591674992593368155
+    second: Glass_Broken_02_A_29
+  - first:
+      213: 7788950191635972278
+    second: Glass_Broken_02_A_30
+  - first:
+      213: 2702110900066660850
+    second: Glass_Broken_02_A_31
+  - first:
+      213: -1477929836004819452
+    second: Glass_Broken_02_A_32
+  - first:
+      213: 4257827832246572551
+    second: Glass_Broken_02_A_33
+  - first:
+      213: -215465823895142328
+    second: Glass_Broken_02_A_34
+  - first:
+      213: 7307929219434743320
+    second: Glass_Broken_02_A_35
+  - first:
+      213: -8332529727932132876
+    second: Glass_Broken_02_A_36
+  - first:
+      213: 8828029802567419861
+    second: Glass_Broken_02_A_37
+  - first:
+      213: 5781882139617443278
+    second: Glass_Broken_02_A_38
+  - first:
+      213: -3557343262195537850
+    second: Glass_Broken_02_A_39
+  - first:
+      213: 5479490693420496472
+    second: Glass_Broken_02_A_40
+  - first:
+      213: -8326014567072399650
+    second: Glass_Broken_02_A_41
+  - first:
+      213: -566882874237288535
+    second: Glass_Broken_02_A_42
+  - first:
+      213: 1374121036210472161
+    second: Glass_Broken_02_A_43
+  - first:
+      213: 5838220741098886067
+    second: Glass_Broken_02_A_44
+  - first:
+      213: -5786349450454465653
+    second: Glass_Broken_02_A_45
+  - first:
+      213: 8477293100396458912
+    second: Glass_Broken_02_A_46
+  - first:
+      213: -1423193236868269547
+    second: Glass_Broken_02_A_47
+  - first:
+      213: -7630630705197441148
+    second: Glass_Broken_02_A_48
+  - first:
+      213: -4525459884556491342
+    second: Glass_Broken_02_A_49
+  - first:
+      213: -8189144477196357311
+    second: Glass_Broken_02_A_50
+  - first:
+      213: -9108533891300435146
+    second: Glass_Broken_02_A_51
+  - first:
+      213: -2201430099304544302
+    second: Glass_Broken_02_A_52
+  - first:
+      213: -1903685436616892345
+    second: Glass_Broken_02_A_53
+  - first:
+      213: -1725073825752285171
+    second: Glass_Broken_02_A_54
+  - first:
+      213: 1739865899698603311
+    second: Glass_Broken_02_A_55
+  - first:
+      213: 3534191390037405143
+    second: Glass_Broken_02_A_56
+  - first:
+      213: 8773764875951200503
+    second: Glass_Broken_02_A_57
+  - first:
+      213: 2536753204932150606
+    second: Glass_Broken_02_A_58
+  - first:
+      213: -7143653526381745502
+    second: Glass_Broken_02_A_59
+  - first:
+      213: 7525590359377285158
+    second: Glass_Broken_02_A_60
+  - first:
+      213: 4062639230030775190
+    second: Glass_Broken_02_A_61
+  - first:
+      213: 5049217119410495354
+    second: Glass_Broken_02_A_62
+  - first:
+      213: 3094837327120684811
+    second: Glass_Broken_02_A_63
+  - first:
+      213: -821566524342208080
+    second: Glass_Broken_02_A_64
+  - first:
+      213: -832411646038520279
+    second: Glass_Broken_02_A_65
+  - first:
+      213: -2018582156342922865
+    second: Glass_Broken_02_A_66
+  - first:
+      213: -3448640418302398729
+    second: Glass_Broken_02_A_67
+  - first:
+      213: -5978356809321028797
+    second: Glass_Broken_02_A_68
+  - first:
+      213: 6928480415088122252
+    second: Glass_Broken_02_A_69
+  - first:
+      213: -2964410925237277089
+    second: Glass_Broken_02_A_70
+  - first:
+      213: -8779879047578800509
+    second: Glass_Broken_02_A_71
+  - first:
+      213: 3279202226894311408
+    second: Glass_Broken_02_A_72
+  - first:
+      213: 4727100095775223319
+    second: Glass_Broken_02_A_73
+  - first:
+      213: 7977050768565897782
+    second: Glass_Broken_02_A_74
+  - first:
+      213: 2180339376598139805
+    second: Glass_Broken_02_A_75
+  - first:
+      213: -8192978690123175039
+    second: Glass_Broken_02_A_76
+  - first:
+      213: -8179376026144851613
+    second: Glass_Broken_02_A_77
+  - first:
+      213: 3618386325047546380
+    second: Glass_Broken_02_A_78
+  - first:
+      213: 6606658533750582383
+    second: Glass_Broken_02_A_79
+  - first:
+      213: -2882799762005292211
+    second: Glass_Broken_02_A_80
+  - first:
+      213: -9038659998218158236
+    second: Glass_Broken_02_A_81
+  - first:
+      213: 4535888154975324372
+    second: Glass_Broken_02_A_82
+  - first:
+      213: -8398750984805844911
+    second: Glass_Broken_02_A_83
+  - first:
+      213: 2566233646836919459
+    second: Glass_Broken_02_A_84
+  - first:
+      213: 4284054208266831262
+    second: Glass_Broken_02_A_85
+  - first:
+      213: 1052399373335620457
+    second: Glass_Broken_02_A_86
+  - first:
+      213: -3800889225463802593
+    second: Glass_Broken_02_A_87
+  - first:
+      213: -9169261927088626872
+    second: Glass_Broken_02_A_88
+  - first:
+      213: -8216108883933440969
+    second: Glass_Broken_02_A_89
+  - first:
+      213: 4876693737212254217
+    second: Glass_Broken_02_A_90
+  - first:
+      213: -2430627858656043595
+    second: Glass_Broken_02_A_91
+  - first:
+      213: -5973930258179178325
+    second: Glass_Broken_02_A_92
+  - first:
+      213: -1716169677403275902
+    second: Glass_Broken_02_A_93
+  - first:
+      213: 7198120268327289219
+    second: Glass_Broken_02_A_94
+  - first:
+      213: -2744890359731556731
+    second: Glass_Broken_02_A_95
+  - first:
+      213: -1801171545867637977
+    second: Glass_Broken_02_A_96
+  - first:
+      213: 2453953407478838174
+    second: Glass_Broken_02_A_97
+  - first:
+      213: 8128519345143558366
+    second: Glass_Broken_02_A_98
+  - first:
+      213: -8334132498427150346
+    second: Glass_Broken_02_A_99
+  - first:
+      213: -5041540717852558167
+    second: Glass_Broken_02_A_100
+  - first:
+      213: 1223482247285937748
+    second: Glass_Broken_02_A_101
+  - first:
+      213: -1887268598621005299
+    second: Glass_Broken_02_A_102
+  - first:
+      213: 2111115280103583912
+    second: Glass_Broken_02_A_103
+  - first:
+      213: 2397017145971071178
+    second: Glass_Broken_02_A_104
+  - first:
+      213: 1720076002376727628
+    second: Glass_Broken_02_A_105
+  - first:
+      213: 8207739756959205754
+    second: Glass_Broken_02_A_106
+  - first:
+      213: -7465219181649317344
+    second: Glass_Broken_02_A_107
+  - first:
+      213: -8959288878906824745
+    second: Glass_Broken_02_A_108
+  - first:
+      213: 2772803865912247687
+    second: Glass_Broken_02_A_109
+  - first:
+      213: -3953496318119929980
+    second: Glass_Broken_02_A_110
+  - first:
+      213: -6844888172663048584
+    second: Glass_Broken_02_A_111
+  - first:
+      213: 4976229733277100461
+    second: Glass_Broken_02_A_112
+  - first:
+      213: -8080288537783751022
+    second: Glass_Broken_02_A_113
+  - first:
+      213: -8600327690407016860
+    second: Glass_Broken_02_A_114
+  - first:
+      213: -2722114024834404809
+    second: Glass_Broken_02_A_115
+  - first:
+      213: 542528673110719991
+    second: Glass_Broken_02_A_116
+  - first:
+      213: -7117723202384825829
+    second: Glass_Broken_02_A_117
+  - first:
+      213: 6647367510761696010
+    second: Glass_Broken_02_A_118
+  - first:
+      213: -6980954613639146696
+    second: Glass_Broken_02_A_119
+  - first:
+      213: 6458966364184591981
+    second: Glass_Broken_02_A_120
+  - first:
+      213: -8381647279008247285
+    second: Glass_Broken_02_A_121
+  - first:
+      213: -6120128413800410185
+    second: Glass_Broken_02_A_122
+  - first:
+      213: -3776494126423099856
+    second: Glass_Broken_02_A_123
+  - first:
+      213: 6482536802119864159
+    second: Glass_Broken_02_A_124
+  - first:
+      213: -9008497970805689734
+    second: Glass_Broken_02_A_125
+  - first:
+      213: 7075147207647458176
+    second: Glass_Broken_02_A_126
+  - first:
+      213: -7501856632183298011
+    second: Glass_Broken_02_A_127
+  - first:
+      213: 705209798732976915
+    second: Glass_Broken_02_A_128
+  - first:
+      213: -3218127039256980137
+    second: Glass_Broken_02_A_129
+  - first:
+      213: 3164557022665460360
+    second: Glass_Broken_02_A_130
+  - first:
+      213: 2784301807525581238
+    second: Glass_Broken_02_A_131
+  - first:
+      213: -3626916038792378603
+    second: Glass_Broken_02_A_132
+  - first:
+      213: -9117063649731118772
+    second: Glass_Broken_02_A_133
+  - first:
+      213: -5836851168551699541
+    second: Glass_Broken_02_A_134
+  - first:
+      213: 7981673744753585485
+    second: Glass_Broken_02_A_135
+  - first:
+      213: 8548478147651613608
+    second: Glass_Broken_02_A_136
+  - first:
+      213: -9111114863205109982
+    second: Glass_Broken_02_A_137
+  - first:
+      213: 1628124763520223446
+    second: Glass_Broken_02_A_138
+  - first:
+      213: -3227293294722522442
+    second: Glass_Broken_02_A_139
+  - first:
+      213: -4674147313163485790
+    second: Glass_Broken_02_A_140
+  - first:
+      213: -242485423601860448
+    second: Glass_Broken_02_A_141
+  - first:
+      213: 1510690727787756095
+    second: Glass_Broken_02_A_142
+  - first:
+      213: 8342473414614093315
+    second: Glass_Broken_02_A_143
+  - first:
+      213: -1370698318404106348
+    second: Glass_Broken_02_A_144
+  - first:
+      213: -8020885253852584379
+    second: Glass_Broken_02_A_145
+  - first:
+      213: -5629576343288392877
+    second: Glass_Broken_02_A_146
+  - first:
+      213: 9075222699419298483
+    second: Glass_Broken_02_A_147
+  - first:
+      213: -4623526986892196365
+    second: Glass_Broken_02_A_148
+  - first:
+      213: 7184609537516478220
+    second: Glass_Broken_02_A_149
+  - first:
+      213: -5778059631087631998
+    second: Glass_Broken_02_A_150
+  - first:
+      213: -3499080938969613914
+    second: Glass_Broken_02_A_151
+  - first:
+      213: -5990336689859917175
+    second: Glass_Broken_02_A_152
+  - first:
+      213: 6046483791071569273
+    second: Glass_Broken_02_A_153
+  - first:
+      213: -6214030055022717546
+    second: Glass_Broken_02_A_154
+  - first:
+      213: 7093108785479811088
+    second: Glass_Broken_02_A_155
+  - first:
+      213: -590507778562828725
+    second: Glass_Broken_02_A_156
+  - first:
+      213: 7649594921190110576
+    second: Glass_Broken_02_A_157
+  - first:
+      213: 4494714813487750669
+    second: Glass_Broken_02_A_158
+  - first:
+      213: 6895586192846037253
+    second: Glass_Broken_02_A_159
+  - first:
+      213: -6038465798546799711
+    second: Glass_Broken_02_A_160
+  - first:
+      213: 5807384276933535994
+    second: Glass_Broken_02_A_161
+  - first:
+      213: -1131803375012397771
+    second: Glass_Broken_02_A_162
+  - first:
+      213: -2476029940377617770
+    second: Glass_Broken_02_A_163
+  - first:
+      213: -3477935652804530261
+    second: Glass_Broken_02_A_164
+  - first:
+      213: 4259107002733575407
+    second: Glass_Broken_02_A_165
+  - first:
+      213: 3831333607445517010
+    second: Glass_Broken_02_A_166
+  - first:
+      213: 5396273827637673003
+    second: Glass_Broken_02_A_167
+  - first:
+      213: 5668040029253743709
+    second: Glass_Broken_02_A_168
+  - first:
+      213: -2031175727978060496
+    second: Glass_Broken_02_A_169
+  - first:
+      213: 7537595280835395466
+    second: Glass_Broken_02_A_170
+  - first:
+      213: 2613616967833585041
+    second: Glass_Broken_02_A_171
+  - first:
+      213: -8444741478066196845
+    second: Glass_Broken_02_A_172
+  - first:
+      213: 5240320987896375217
+    second: Glass_Broken_02_A_173
+  - first:
+      213: 4400653895802242913
+    second: Glass_Broken_02_A_174
+  - first:
+      213: -263422379667713157
+    second: Glass_Broken_02_A_175
+  - first:
+      213: 678443513828867365
+    second: Glass_Broken_02_A_176
+  - first:
+      213: 8619182547298099358
+    second: Glass_Broken_02_A_177
+  - first:
+      213: -9153872427692459431
+    second: Glass_Broken_02_A_178
+  - first:
+      213: -7296693711219620073
+    second: Glass_Broken_02_A_179
+  - first:
+      213: 3603956751685832550
+    second: Glass_Broken_02_A_180
+  - first:
+      213: 2392414493920744350
+    second: Glass_Broken_02_A_181
+  - first:
+      213: 782546939785887383
+    second: Glass_Broken_02_A_182
+  - first:
+      213: -8519636594203323054
+    second: Glass_Broken_02_A_183
+  - first:
+      213: -5866239140352846237
+    second: Glass_Broken_02_A_184
+  - first:
+      213: -6878594676283741810
+    second: Glass_Broken_02_A_185
+  - first:
+      213: -6535649392189480330
+    second: Glass_Broken_02_A_186
+  - first:
+      213: -7242919018922900785
+    second: Glass_Broken_02_A_187
+  - first:
+      213: 2493122833835895118
+    second: Glass_Broken_02_A_188
+  - first:
+      213: 1468370831525978481
+    second: Glass_Broken_02_A_189
+  - first:
+      213: -7684809119835824013
+    second: Glass_Broken_02_A_190
+  - first:
+      213: -732172437791157968
+    second: Glass_Broken_02_A_191
+  - first:
+      213: -7931607291219579434
+    second: Glass_Broken_02_A_192
+  - first:
+      213: -2813781160993617552
+    second: Glass_Broken_02_A_193
+  - first:
+      213: -1733545553181170723
+    second: Glass_Broken_02_A_194
+  - first:
+      213: 1334907713395083807
+    second: Glass_Broken_02_A_195
+  - first:
+      213: -3425221493921661282
+    second: Glass_Broken_02_A_196
+  - first:
+      213: -4560330328603646206
+    second: Glass_Broken_02_A_197
+  - first:
+      213: -6234053789309294987
+    second: Glass_Broken_02_A_198
+  - first:
+      213: -1747746999345788799
+    second: Glass_Broken_02_A_199
+  - first:
+      213: 6734107453007456328
+    second: Glass_Broken_02_A_200
+  - first:
+      213: -2755387740770695620
+    second: Glass_Broken_02_A_201
+  - first:
+      213: -7827803417437092636
+    second: Glass_Broken_02_A_202
+  - first:
+      213: -4507894514694305118
+    second: Glass_Broken_02_A_203
+  - first:
+      213: 7229220806574677790
+    second: Glass_Broken_02_A_204
+  - first:
+      213: -3900991247752654366
+    second: Glass_Broken_02_A_205
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 353
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd61a84e54a37bb40800000000000000
+      internalID: 5455893545444054747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 336
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712a88b1066f85250800000000000000
+      internalID: 5933763401699861015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 335
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533d904f2900f7e20800000000000000
+      internalID: 3350397278946448181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 345
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a0121419082a1c0800000000000000
+      internalID: -4493888116811036051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 328
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7ddbfd548395ec0800000000000000
+      internalID: -3577766556211488795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 331
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087c66f000f6eef40800000000000000
+      internalID: 5759663019502520192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_6
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 325
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1727f2c52bfa7f780800000000000000
+      internalID: -8649251378756095375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 312
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb25ab6c7f37d850800000000000000
+      internalID: 6401655198944930785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 312
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a766aaa3e30d900800000000000000
+      internalID: 707133563185035782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 313
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdefe1a85a0f45ad0800000000000000
+      internalID: -2714280081620009249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 310
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641b469c97ac63a10800000000000000
+      internalID: 1888919718147174726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 309
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535d8ef1978d21dc0800000000000000
+      internalID: -3669632731615537867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 319
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075716a6e07c7f0a0800000000000000
+      internalID: -6847785843665308304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_13
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 312
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379211e3a8d8b5ff0800000000000000
+      internalID: -46287746270942861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 305
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca30640a2aba43f20800000000000000
+      internalID: 3401532333533561772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 307
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc13514fec7c4ca70800000000000000
+      internalID: 8846415259734716876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 297
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6532f070d4ea8a100800000000000000
+      internalID: 119537035979465558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 284
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6bce2a58a41c620800000000000000
+      internalID: 2792595181770946273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 282
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8c294f9fe332700800000000000000
+      internalID: 514324025721407672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_19
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 283
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0a2787c683cd240800000000000000
+      internalID: 4817787739907989675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 278
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3925077e754d0c8b0800000000000000
+      internalID: -5133870101192224109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 292
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5f59bc96c767660800000000000000
+      internalID: 7383225432949519781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_22
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 271
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908b8c0053baf0630800000000000000
+      internalID: 3895520446833539081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_23
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 289
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609779eec573ed940800000000000000
+      internalID: 5322752681877928198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_24
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 285
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5264c807dbbcd9c40800000000000000
+      internalID: 5520792732723594789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_25
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 282
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d88c76fb1fcb420800000000000000
+      internalID: 2647256485369253195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 279
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7840fb0fbe362a610800000000000000
+      internalID: 1630975880069055623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_27
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 273
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a182d83e92af9b140800000000000000
+      internalID: 4736091540975069210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_28
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 268
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f6e1b2e3f0cf530800000000000000
+      internalID: 3890000937827069786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_29
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 275
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab8df3aab2f9c7f0800000000000000
+      internalID: -591674992593368155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_30
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 281
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b04ca18ee8e71c60800000000000000
+      internalID: 7788950191635972278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_31
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 266
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f13f261c83df7520800000000000000
+      internalID: 2702110900066660850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 262
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e3bf105a65d7be0800000000000000
+      internalID: -1477929836004819452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 264
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70614dfbad7d61b30800000000000000
+      internalID: 4257827832246572551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_34
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 251
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8404e7989f2820df0800000000000000
+      internalID: -215465823895142328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_35
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 266
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8160b10f7eafa6560800000000000000
+      internalID: 7307929219434743320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_36
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 270
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1193e2c58ec5c80800000000000000
+      internalID: -8332529727932132876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_37
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 268
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7c7902556738a70800000000000000
+      internalID: 8828029802567419861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_38
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 255
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdb2191c2f5d3050800000000000000
+      internalID: 5781882139617443278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 259
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648a4b09627c1aec0800000000000000
+      internalID: -3557343262195537850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_40
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 259
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856336b01cf0b0c40800000000000000
+      internalID: 5479490693420496472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 250
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edefbe64ddd047c80800000000000000
+      internalID: -8326014567072399650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_42
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 258
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af75d387070228f0800000000000000
+      internalID: -566882874237288535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_43
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 252
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e487b15dcbd11310800000000000000
+      internalID: 1374121036210472161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_44
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 258
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b35481f4d6850150800000000000000
+      internalID: 5838220741098886067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 241
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83826b05d1c2bfa0800000000000000
+      internalID: -5786349450454465653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_46
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a33002092565a570800000000000000
+      internalID: 8477293100396458912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_47
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 238
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a7abd9a4dcf3ce0800000000000000
+      internalID: -1423193236868269547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_48
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 248
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f948c6dcd8a1690800000000000000
+      internalID: -7630630705197441148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_49
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 244
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5eabf36365231c0800000000000000
+      internalID: -4525459884556491342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_50
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 241
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141fb566c705a5e80800000000000000
+      internalID: -8189144477196357311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_51
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 249
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b5e685facf79180800000000000000
+      internalID: -9108533891300435146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_52
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 233
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d789150df2f271e0800000000000000
+      internalID: -2201430099304544302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 241
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740ad5a7e20c495e0800000000000000
+      internalID: -1903685436616892345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_54
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 240
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0006bcce7e4f08e0800000000000000
+      internalID: -1725073825752285171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_55
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 235
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25c95c41de352810800000000000000
+      internalID: 1739865899698603311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_56
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 216
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd6c632858fb0130800000000000000
+      internalID: 3534191390037405143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_57
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 230
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8ded55baca2c970800000000000000
+      internalID: 8773764875951200503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_58
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 229
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4580de799b543320800000000000000
+      internalID: 2536753204932150606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_59
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 233
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aaac8967f4acdc90800000000000000
+      internalID: -7143653526381745502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_60
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 227
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62099cf3f84407860800000000000000
+      internalID: 7525590359377285158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_61
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 236
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6930d8cdad4616830800000000000000
+      internalID: 4062639230030775190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_62
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 233
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f984cd73c621640800000000000000
+      internalID: 5049217119410495354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_63
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 235
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07d5a0e62213fa20800000000000000
+      internalID: 3094837327120684811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_64
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 215
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9fa3559953994f0800000000000000
+      internalID: -821566524342208080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_65
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 236
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ec9faa40ea274f0800000000000000
+      internalID: -832411646038520279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_66
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 234
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81fc35493e8cf3e0800000000000000
+      internalID: -2018582156342922865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_67
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 225
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fee70dafc7f320d0800000000000000
+      internalID: -3448640418302398729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_68
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 230
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343e1e7182c980da0800000000000000
+      internalID: -5978356809321028797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_69
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 230
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8914969a38e62060800000000000000
+      internalID: 6928480415088122252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 221
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ee1f838fb4cd6d0800000000000000
+      internalID: -2964410925237277089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_71
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 219
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38eab26268a972680800000000000000
+      internalID: -8779879047578800509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_72
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 217
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff84b82d01128d20800000000000000
+      internalID: 3279202226894311408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_73
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 211
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ea56aed780a9140800000000000000
+      internalID: 4727100095775223319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_74
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 225
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a80a7e86d24be60800000000000000
+      internalID: 7977050768565897782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_75
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 219
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93cdef6c1f124e10800000000000000
+      internalID: 2180339376598139805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_76
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 218
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18becd22a41bc4e80800000000000000
+      internalID: -8192978690123175039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_77
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 220
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3693a4527d40d7e80800000000000000
+      internalID: -8179376026144851613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_78
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 217
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02179c0137173230800000000000000
+      internalID: 3618386325047546380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_79
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 207
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ca180dee09fab50800000000000000
+      internalID: 6606658533750582383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_80
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 204
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b0813e3ec3ef7d0800000000000000
+      internalID: -2882799762005292211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_81
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 199
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f7ca8de9a309280800000000000000
+      internalID: -9038659998218158236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_82
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 203
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8c43aae36b2fe30800000000000000
+      internalID: 4535888154975324372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_83
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 208
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1587fa15a74a17b80800000000000000
+      internalID: -8398750984805844911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_84
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 202
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acae52c7e71d9320800000000000000
+      internalID: 2566233646836919459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_85
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 198
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e950342ca94047b30800000000000000
+      internalID: 4284054208266831262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_86
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 210
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b638977afda9e00800000000000000
+      internalID: 1052399373335620457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_87
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 196
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15de9d2367804bc0800000000000000
+      internalID: -3800889225463802593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_88
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 204
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8436e5fabdc30c080800000000000000
+      internalID: -9169261927088626872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_89
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 209
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734573930848afd80800000000000000
+      internalID: -8216108883933440969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_90
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 213
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90898ecbd1f7da340800000000000000
+      internalID: 4876693737212254217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_91
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 196
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd53af27dca44ed0800000000000000
+      internalID: -2430627858656043595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_92
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 194
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0c548d416581da0800000000000000
+      internalID: -5973930258179178325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_93
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 196
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28db41465c0fe28e0800000000000000
+      internalID: -1716169677403275902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_94
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 195
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381003c2f3cd4e360800000000000000
+      internalID: 7198120268327289219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_95
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 201
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e6ec8c2c038e9d0800000000000000
+      internalID: -2744890359731556731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_96
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 204
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ba405a504f007e0800000000000000
+      internalID: -1801171545867637977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_97
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 187
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93b22c5f913e0220800000000000000
+      internalID: 2453953407478838174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_98
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 189
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed03c25174d4ec070800000000000000
+      internalID: 8128519345143558366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_99
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 191
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fff53816a6375c80800000000000000
+      internalID: -8334132498427150346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_100
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 182
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acfab7ad69d80ab0800000000000000
+      internalID: -5041540717852558167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_101
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 185
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45699722f9eaaf010800000000000000
+      internalID: 1223482247285937748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_102
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 194
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a127f65331fc5e0800000000000000
+      internalID: -1887268598621005299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_103
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 190
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0397e79203c4d10800000000000000
+      internalID: 2111115280103583912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_104
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 192
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac85022f46ae34120800000000000000
+      internalID: 2397017145971071178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_105
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 179
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cb654c200fed710800000000000000
+      internalID: 1720076002376727628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_106
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 187
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79876e82dfb7e170800000000000000
+      internalID: 8207739756959205754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_107
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 188
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0223c5be4b6366890800000000000000
+      internalID: -7465219181649317344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_108
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 187
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7a6a4ab363aa380800000000000000
+      internalID: -8959288878906824745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_109
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 179
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7858783dc6afa7620800000000000000
+      internalID: 2772803865912247687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_110
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48795a19b0c5229c0800000000000000
+      internalID: -3953496318119929980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_111
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 172
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876752509721201a0800000000000000
+      internalID: -6844888172663048584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_112
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9e7b4c39e1f0540800000000000000
+      internalID: 4976229733277100461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_113
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 177
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e2db6d26c0ddf80800000000000000
+      internalID: -8080288537783751022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_114
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 172
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4668555388f75a880800000000000000
+      internalID: -8600327690407016860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_115
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 174
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ee2af77bb193ad0800000000000000
+      internalID: -2722114024834404809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_116
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 184
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd7a3924f2778700800000000000000
+      internalID: 542528673110719991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_117
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 183
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12fb407574c83d90800000000000000
+      internalID: -7117723202384825829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_118
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 175
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b6c622881304c50800000000000000
+      internalID: 6647367510761696010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_119
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 177
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8331aecf3caae1f90800000000000000
+      internalID: -6980954613639146696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_120
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 177
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e3b69efabd2a950800000000000000
+      internalID: 6458966364184591981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 165
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02181625386eab80800000000000000
+      internalID: -8381647279008247285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_122
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 170
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3d6ab22afe01ba0800000000000000
+      internalID: -6120128413800410185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_123
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 172
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036b33ac992379bc0800000000000000
+      internalID: -3776494126423099856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_124
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 174
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f40c520e896f950800000000000000
+      internalID: 6482536802119864159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_125
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 163
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72bc4a13d26bf280800000000000000
+      internalID: -9008497970805689734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_126
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 168
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0837c6d46e8ff2260800000000000000
+      internalID: 7075147207647458176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_127
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 164
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5286ecab32d04e790800000000000000
+      internalID: -7501856632183298011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_128
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 159
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3139a99539869c900800000000000000
+      internalID: 705209798732976915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_129
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 150
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7551207128ae653d0800000000000000
+      internalID: -3218127039256980137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_130
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 157
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a417778d3caeb20800000000000000
+      internalID: 3164557022665460360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_131
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 155
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b15a09fdb3d3a620800000000000000
+      internalID: 2784301807525581238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_132
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 156
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5170d95341b9aadc0800000000000000
+      internalID: -3626916038792378603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_133
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 154
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4976233aeea97180800000000000000
+      internalID: -9117063649731118772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_134
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 164
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babf6a389c65ffea0800000000000000
+      internalID: -5836851168551699541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_135
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 157
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d691d6bf994ce60800000000000000
+      internalID: 7981673744753585485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_136
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 162
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3b6f0659b42a670800000000000000
+      internalID: 8548478147651613608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_137
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 145
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa0eefd41de8180800000000000000
+      internalID: -9111114863205109982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_138
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 150
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8c3a3a8d2489610800000000000000
+      internalID: 1628124763520223446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_139
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 152
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2601ee8d95633d0800000000000000
+      internalID: -3227293294722522442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_140
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 142
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad3b0b88c7122fb0800000000000000
+      internalID: -4674147313163485790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_141
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 151
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0400fbac482acf0800000000000000
+      internalID: -242485423601860448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_142
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 143
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3af343863d07f410800000000000000
+      internalID: 1510690727787756095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_143
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 149
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e863ace5b66c370800000000000000
+      internalID: 8342473414614093315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_144
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 136
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4974c45442d4afce0800000000000000
+      internalID: -1370698318404106348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_145
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 146
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546a2fbab5710b090800000000000000
+      internalID: -8020885253852584379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_146
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 138
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3535a5e742abfd1b0800000000000000
+      internalID: -5629576343288392877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_147
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 146
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bae27866faa1fd70800000000000000
+      internalID: 9075222699419298483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_148
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 141
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5cbd0b3bee5dfb0800000000000000
+      internalID: -4623526986892196365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_149
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 140
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f9d850f4cd4b360800000000000000
+      internalID: 7184609537516478220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_150
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 137
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2814ff5016530dfa0800000000000000
+      internalID: -5778059631087631998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_151
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 132
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a93068cc64c07fc0800000000000000
+      internalID: -3499080938969613914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_152
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 133
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a09ebc48c0edca0800000000000000
+      internalID: -5990336689859917175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_153
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 142
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9756afae8fc69e350800000000000000
+      internalID: 6046483791071569273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_154
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 111
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69515ca969453c9a0800000000000000
+      internalID: -6214030055022717546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_155
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 138
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0100ab70cd8cf6260800000000000000
+      internalID: 7093108785479811088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_156
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 133
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4658a5dd481ec7f0800000000000000
+      internalID: -590507778562828725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_157
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 114
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0753b213d02d82a60800000000000000
+      internalID: 7649594921190110576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_158
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 133
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e9f901f4f606e30800000000000000
+      internalID: 4494714813487750669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_159
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 141
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5012da6ab1b02bf50800000000000000
+      internalID: 6895586192846037253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_160
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 126
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3c541795f033ca0800000000000000
+      internalID: -6038465798546799711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_161
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 123
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8efc42b39f79050800000000000000
+      internalID: 5807384276933535994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_162
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 124
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d3cc4b3d60b40f0800000000000000
+      internalID: -1131803375012397771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_163
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 130
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a7f8643ef53add0800000000000000
+      internalID: -2476029940377617770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_164
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 125
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf6bee53f3ebbfc0800000000000000
+      internalID: -3477935652804530261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_165
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 113
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec3056d0436b1b30800000000000000
+      internalID: 4259107002733575407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_166
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 111
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d25ecfdd91ab2530800000000000000
+      internalID: 3831333607445517010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_167
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 130
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cb41f947a63ea40800000000000000
+      internalID: 5396273827637673003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_168
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 119
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d543d54406ce8ae40800000000000000
+      internalID: 5668040029253743709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_169
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 105
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035e871ef60dfc3e0800000000000000
+      internalID: -2031175727978060496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_170
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 114
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fbad6d8faea9860800000000000000
+      internalID: 7537595280835395466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_171
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 96
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19587a2e8ce654420800000000000000
+      internalID: 2613616967833585041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_172
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e6bdb2e504eca80800000000000000
+      internalID: -8444741478066196845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_173
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b766909c2c59b840800000000000000
+      internalID: 5240320987896375217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_174
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 99
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1674bbe0763421d30800000000000000
+      internalID: 4400653895802242913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_175
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 115
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73940acdb2285cf0800000000000000
+      internalID: -263422379667713157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_176
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 105
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dffe108c05a6900800000000000000
+      internalID: 678443513828867365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_177
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9023f14cdc7d9770800000000000000
+      internalID: 8619182547298099358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_178
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95af52cb689e6f080800000000000000
+      internalID: -9153872427692459431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_179
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 108
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7178debaabfecba90800000000000000
+      internalID: -7296693711219620073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_180
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fca123293d30230800000000000000
+      internalID: 3603956751685832550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_181
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 95
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9354a18e40933120800000000000000
+      internalID: 2392414493920744350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_182
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 88
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eb10eab4a2cda00800000000000000
+      internalID: 782546939785887383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_183
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 91
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255971318ab24c980800000000000000
+      internalID: -8519636594203323054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_184
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 96
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36696cf159ee69ea0800000000000000
+      internalID: -5866239140352846237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_185
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 83
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89e63616925a80a0800000000000000
+      internalID: -6878594676283741810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_186
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 79
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6726c025185bc45a0800000000000000
+      internalID: -6535649392189480330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_187
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 76
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc20e24e68bfb7b90800000000000000
+      internalID: -7242919018922900785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_188
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 65
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49243c120a599220800000000000000
+      internalID: 2493122833835895118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_189
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 68
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171a6a3dd73b06410800000000000000
+      internalID: 1468370831525978481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_190
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 85
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370e08542d21a5590800000000000000
+      internalID: -7684809119835824013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_191
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 78
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031502b0c0dc6d5f0800000000000000
+      internalID: -732172437791157968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_192
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 75
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd65fc21354de190800000000000000
+      internalID: -7931607291219579434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_193
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 84
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0790a4f21f073f8d0800000000000000
+      internalID: -2813781160993617552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_194
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 55
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3adac018531f7e0800000000000000
+      internalID: -1733545553181170723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_195
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 62
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ac7d02e7b868210800000000000000
+      internalID: 1334907713395083807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_196
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 75
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e34c9e23b2770d0800000000000000
+      internalID: -3425221493921661282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_197
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 65
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207a3215ab376b0c0800000000000000
+      internalID: -4560330328603646206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_198
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 58
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576aa89ab113c79a0800000000000000
+      internalID: -6234053789309294987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_199
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 65
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1884db23d51ceb7e0800000000000000
+      internalID: -1747746999345788799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_200
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 59
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848e1d7bc0b547d50800000000000000
+      internalID: 6734107453007456328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_201
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 60
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3685ecc275e2c9d0800000000000000
+      internalID: -2755387740770695620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_202
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 60
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4c21ce34e0e5390800000000000000
+      internalID: -7827803417437092636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_203
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 38
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aac6be92ddb071c0800000000000000
+      internalID: -4507894514694305118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_204
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 49
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f1fb2850a535460800000000000000
+      internalID: 7229220806574677790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Glass_Broken_02_A_205
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 38
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e19bc5e025ecd9c0800000000000000
+      internalID: -3900991247752654366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Glass_Broken_02_A_0: 5455893545444054747
+      Glass_Broken_02_A_1: 5933763401699861015
+      Glass_Broken_02_A_10: 1888919718147174726
+      Glass_Broken_02_A_100: -5041540717852558167
+      Glass_Broken_02_A_101: 1223482247285937748
+      Glass_Broken_02_A_102: -1887268598621005299
+      Glass_Broken_02_A_103: 2111115280103583912
+      Glass_Broken_02_A_104: 2397017145971071178
+      Glass_Broken_02_A_105: 1720076002376727628
+      Glass_Broken_02_A_106: 8207739756959205754
+      Glass_Broken_02_A_107: -7465219181649317344
+      Glass_Broken_02_A_108: -8959288878906824745
+      Glass_Broken_02_A_109: 2772803865912247687
+      Glass_Broken_02_A_11: -3669632731615537867
+      Glass_Broken_02_A_110: -3953496318119929980
+      Glass_Broken_02_A_111: -6844888172663048584
+      Glass_Broken_02_A_112: 4976229733277100461
+      Glass_Broken_02_A_113: -8080288537783751022
+      Glass_Broken_02_A_114: -8600327690407016860
+      Glass_Broken_02_A_115: -2722114024834404809
+      Glass_Broken_02_A_116: 542528673110719991
+      Glass_Broken_02_A_117: -7117723202384825829
+      Glass_Broken_02_A_118: 6647367510761696010
+      Glass_Broken_02_A_119: -6980954613639146696
+      Glass_Broken_02_A_12: -6847785843665308304
+      Glass_Broken_02_A_120: 6458966364184591981
+      Glass_Broken_02_A_121: -8381647279008247285
+      Glass_Broken_02_A_122: -6120128413800410185
+      Glass_Broken_02_A_123: -3776494126423099856
+      Glass_Broken_02_A_124: 6482536802119864159
+      Glass_Broken_02_A_125: -9008497970805689734
+      Glass_Broken_02_A_126: 7075147207647458176
+      Glass_Broken_02_A_127: -7501856632183298011
+      Glass_Broken_02_A_128: 705209798732976915
+      Glass_Broken_02_A_129: -3218127039256980137
+      Glass_Broken_02_A_13: -46287746270942861
+      Glass_Broken_02_A_130: 3164557022665460360
+      Glass_Broken_02_A_131: 2784301807525581238
+      Glass_Broken_02_A_132: -3626916038792378603
+      Glass_Broken_02_A_133: -9117063649731118772
+      Glass_Broken_02_A_134: -5836851168551699541
+      Glass_Broken_02_A_135: 7981673744753585485
+      Glass_Broken_02_A_136: 8548478147651613608
+      Glass_Broken_02_A_137: -9111114863205109982
+      Glass_Broken_02_A_138: 1628124763520223446
+      Glass_Broken_02_A_139: -3227293294722522442
+      Glass_Broken_02_A_14: 3401532333533561772
+      Glass_Broken_02_A_140: -4674147313163485790
+      Glass_Broken_02_A_141: -242485423601860448
+      Glass_Broken_02_A_142: 1510690727787756095
+      Glass_Broken_02_A_143: 8342473414614093315
+      Glass_Broken_02_A_144: -1370698318404106348
+      Glass_Broken_02_A_145: -8020885253852584379
+      Glass_Broken_02_A_146: -5629576343288392877
+      Glass_Broken_02_A_147: 9075222699419298483
+      Glass_Broken_02_A_148: -4623526986892196365
+      Glass_Broken_02_A_149: 7184609537516478220
+      Glass_Broken_02_A_15: 8846415259734716876
+      Glass_Broken_02_A_150: -5778059631087631998
+      Glass_Broken_02_A_151: -3499080938969613914
+      Glass_Broken_02_A_152: -5990336689859917175
+      Glass_Broken_02_A_153: 6046483791071569273
+      Glass_Broken_02_A_154: -6214030055022717546
+      Glass_Broken_02_A_155: 7093108785479811088
+      Glass_Broken_02_A_156: -590507778562828725
+      Glass_Broken_02_A_157: 7649594921190110576
+      Glass_Broken_02_A_158: 4494714813487750669
+      Glass_Broken_02_A_159: 6895586192846037253
+      Glass_Broken_02_A_16: 119537035979465558
+      Glass_Broken_02_A_160: -6038465798546799711
+      Glass_Broken_02_A_161: 5807384276933535994
+      Glass_Broken_02_A_162: -1131803375012397771
+      Glass_Broken_02_A_163: -2476029940377617770
+      Glass_Broken_02_A_164: -3477935652804530261
+      Glass_Broken_02_A_165: 4259107002733575407
+      Glass_Broken_02_A_166: 3831333607445517010
+      Glass_Broken_02_A_167: 5396273827637673003
+      Glass_Broken_02_A_168: 5668040029253743709
+      Glass_Broken_02_A_169: -2031175727978060496
+      Glass_Broken_02_A_17: 2792595181770946273
+      Glass_Broken_02_A_170: 7537595280835395466
+      Glass_Broken_02_A_171: 2613616967833585041
+      Glass_Broken_02_A_172: -8444741478066196845
+      Glass_Broken_02_A_173: 5240320987896375217
+      Glass_Broken_02_A_174: 4400653895802242913
+      Glass_Broken_02_A_175: -263422379667713157
+      Glass_Broken_02_A_176: 678443513828867365
+      Glass_Broken_02_A_177: 8619182547298099358
+      Glass_Broken_02_A_178: -9153872427692459431
+      Glass_Broken_02_A_179: -7296693711219620073
+      Glass_Broken_02_A_18: 514324025721407672
+      Glass_Broken_02_A_180: 3603956751685832550
+      Glass_Broken_02_A_181: 2392414493920744350
+      Glass_Broken_02_A_182: 782546939785887383
+      Glass_Broken_02_A_183: -8519636594203323054
+      Glass_Broken_02_A_184: -5866239140352846237
+      Glass_Broken_02_A_185: -6878594676283741810
+      Glass_Broken_02_A_186: -6535649392189480330
+      Glass_Broken_02_A_187: -7242919018922900785
+      Glass_Broken_02_A_188: 2493122833835895118
+      Glass_Broken_02_A_189: 1468370831525978481
+      Glass_Broken_02_A_19: 4817787739907989675
+      Glass_Broken_02_A_190: -7684809119835824013
+      Glass_Broken_02_A_191: -732172437791157968
+      Glass_Broken_02_A_192: -7931607291219579434
+      Glass_Broken_02_A_193: -2813781160993617552
+      Glass_Broken_02_A_194: -1733545553181170723
+      Glass_Broken_02_A_195: 1334907713395083807
+      Glass_Broken_02_A_196: -3425221493921661282
+      Glass_Broken_02_A_197: -4560330328603646206
+      Glass_Broken_02_A_198: -6234053789309294987
+      Glass_Broken_02_A_199: -1747746999345788799
+      Glass_Broken_02_A_2: 3350397278946448181
+      Glass_Broken_02_A_20: -5133870101192224109
+      Glass_Broken_02_A_200: 6734107453007456328
+      Glass_Broken_02_A_201: -2755387740770695620
+      Glass_Broken_02_A_202: -7827803417437092636
+      Glass_Broken_02_A_203: -4507894514694305118
+      Glass_Broken_02_A_204: 7229220806574677790
+      Glass_Broken_02_A_205: -3900991247752654366
+      Glass_Broken_02_A_21: 7383225432949519781
+      Glass_Broken_02_A_22: 3895520446833539081
+      Glass_Broken_02_A_23: 5322752681877928198
+      Glass_Broken_02_A_24: 5520792732723594789
+      Glass_Broken_02_A_25: 2647256485369253195
+      Glass_Broken_02_A_26: 1630975880069055623
+      Glass_Broken_02_A_27: 4736091540975069210
+      Glass_Broken_02_A_28: 3890000937827069786
+      Glass_Broken_02_A_29: -591674992593368155
+      Glass_Broken_02_A_3: -4493888116811036051
+      Glass_Broken_02_A_30: 7788950191635972278
+      Glass_Broken_02_A_31: 2702110900066660850
+      Glass_Broken_02_A_32: -1477929836004819452
+      Glass_Broken_02_A_33: 4257827832246572551
+      Glass_Broken_02_A_34: -215465823895142328
+      Glass_Broken_02_A_35: 7307929219434743320
+      Glass_Broken_02_A_36: -8332529727932132876
+      Glass_Broken_02_A_37: 8828029802567419861
+      Glass_Broken_02_A_38: 5781882139617443278
+      Glass_Broken_02_A_39: -3557343262195537850
+      Glass_Broken_02_A_4: -3577766556211488795
+      Glass_Broken_02_A_40: 5479490693420496472
+      Glass_Broken_02_A_41: -8326014567072399650
+      Glass_Broken_02_A_42: -566882874237288535
+      Glass_Broken_02_A_43: 1374121036210472161
+      Glass_Broken_02_A_44: 5838220741098886067
+      Glass_Broken_02_A_45: -5786349450454465653
+      Glass_Broken_02_A_46: 8477293100396458912
+      Glass_Broken_02_A_47: -1423193236868269547
+      Glass_Broken_02_A_48: -7630630705197441148
+      Glass_Broken_02_A_49: -4525459884556491342
+      Glass_Broken_02_A_5: 5759663019502520192
+      Glass_Broken_02_A_50: -8189144477196357311
+      Glass_Broken_02_A_51: -9108533891300435146
+      Glass_Broken_02_A_52: -2201430099304544302
+      Glass_Broken_02_A_53: -1903685436616892345
+      Glass_Broken_02_A_54: -1725073825752285171
+      Glass_Broken_02_A_55: 1739865899698603311
+      Glass_Broken_02_A_56: 3534191390037405143
+      Glass_Broken_02_A_57: 8773764875951200503
+      Glass_Broken_02_A_58: 2536753204932150606
+      Glass_Broken_02_A_59: -7143653526381745502
+      Glass_Broken_02_A_6: -8649251378756095375
+      Glass_Broken_02_A_60: 7525590359377285158
+      Glass_Broken_02_A_61: 4062639230030775190
+      Glass_Broken_02_A_62: 5049217119410495354
+      Glass_Broken_02_A_63: 3094837327120684811
+      Glass_Broken_02_A_64: -821566524342208080
+      Glass_Broken_02_A_65: -832411646038520279
+      Glass_Broken_02_A_66: -2018582156342922865
+      Glass_Broken_02_A_67: -3448640418302398729
+      Glass_Broken_02_A_68: -5978356809321028797
+      Glass_Broken_02_A_69: 6928480415088122252
+      Glass_Broken_02_A_7: 6401655198944930785
+      Glass_Broken_02_A_70: -2964410925237277089
+      Glass_Broken_02_A_71: -8779879047578800509
+      Glass_Broken_02_A_72: 3279202226894311408
+      Glass_Broken_02_A_73: 4727100095775223319
+      Glass_Broken_02_A_74: 7977050768565897782
+      Glass_Broken_02_A_75: 2180339376598139805
+      Glass_Broken_02_A_76: -8192978690123175039
+      Glass_Broken_02_A_77: -8179376026144851613
+      Glass_Broken_02_A_78: 3618386325047546380
+      Glass_Broken_02_A_79: 6606658533750582383
+      Glass_Broken_02_A_8: 707133563185035782
+      Glass_Broken_02_A_80: -2882799762005292211
+      Glass_Broken_02_A_81: -9038659998218158236
+      Glass_Broken_02_A_82: 4535888154975324372
+      Glass_Broken_02_A_83: -8398750984805844911
+      Glass_Broken_02_A_84: 2566233646836919459
+      Glass_Broken_02_A_85: 4284054208266831262
+      Glass_Broken_02_A_86: 1052399373335620457
+      Glass_Broken_02_A_87: -3800889225463802593
+      Glass_Broken_02_A_88: -9169261927088626872
+      Glass_Broken_02_A_89: -8216108883933440969
+      Glass_Broken_02_A_9: -2714280081620009249
+      Glass_Broken_02_A_90: 4876693737212254217
+      Glass_Broken_02_A_91: -2430627858656043595
+      Glass_Broken_02_A_92: -5973930258179178325
+      Glass_Broken_02_A_93: -1716169677403275902
+      Glass_Broken_02_A_94: 7198120268327289219
+      Glass_Broken_02_A_95: -2744890359731556731
+      Glass_Broken_02_A_96: -1801171545867637977
+      Glass_Broken_02_A_97: 2453953407478838174
+      Glass_Broken_02_A_98: 8128519345143558366
+      Glass_Broken_02_A_99: -8334132498427150346
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

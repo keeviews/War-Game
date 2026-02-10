@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0ef52960de652458f70a791cf9e18a, type: 3}
+  m_Name: Luger
+  m_EditorClassIdentifier: 
+  Name: Luger Pistol
+  description: Standard Issue Pistol of the German Military
+  ammoType: 0
+  art: {fileID: 2604179872854687825, guid: 8a36380fab6c505479ce2331f485b6aa, type: 3}
+  ingameArt: {fileID: 3291074713938102810, guid: 4d84db8e835276a4d8c3ccd2cbfa15af, type: 3}
+  outlineImage: {fileID: -3721917373845364274, guid: 53e0661a04f30c44c903959728b6e93c, type: 3}
+  prefab: {fileID: 1119728086064152593, guid: f96c9aa648edff448805926d109e7dc0, type: 3}
+  shootOffset: {x: -0.35, y: 0}
+  GunFocusSpeed: 0.6
+  MaxAccuracyVariance: 0.75
+  GunUnFocusSpeed: 0.5
+  GunRecoil: 0.6
+  Damage: 15
+  Secondary: 1
+  Automatic: 0
+  fireRate: 0.6
+  reloadSpeed: 0
+  currentAmmo: 8
+  MaxAmmo: 8
+  SoundAreaMultiplier: 0.9

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0ef52960de652458f70a791cf9e18a, type: 3}
+  m_Name: M1911A1
+  m_EditorClassIdentifier: 
+  Name: M1911A1 Pistol
+  description: Standard Issue Pistol of the United States Military
+  ammoType: 0
+  art: {fileID: 6422591616126067948, guid: 376f17a4fc81d814caec34db48fb8960, type: 3}
+  ingameArt: {fileID: 3291074713938102810, guid: 4d84db8e835276a4d8c3ccd2cbfa15af, type: 3}
+  outlineImage: {fileID: 735156675893706030, guid: 6d65d14859728ce4fa5dbc62e7968b05, type: 3}
+  prefab: {fileID: 324629506145604359, guid: c46ecb6cb97e5174aad57c8437182dd4, type: 3}
+  shootOffset: {x: -0.35, y: 0}
+  GunFocusSpeed: 0.6
+  MaxAccuracyVariance: 0.75
+  GunUnFocusSpeed: 0.5
+  GunRecoil: 0.6
+  Damage: 15
+  Secondary: 1
+  Automatic: 0
+  fireRate: 0.6
+  reloadSpeed: 0
+  currentAmmo: 8
+  MaxAmmo: 8
+  SoundAreaMultiplier: 0.9

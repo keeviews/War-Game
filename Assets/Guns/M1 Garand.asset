@@ -14,15 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: M1 Garand
   description: Standard Issue Weapon of the United States Military
-  art: {fileID: 6699089985201095850, guid: 3c3fd09208b14c14599ac6bde980d8d9, type: 3}
+  ammoType: 1
+  art: {fileID: 1009245247349621795, guid: 695e7e6e166765f4aa88e964442aad1a, type: 3}
+  ingameArt: {fileID: 7741319193198402894, guid: 4d84db8e835276a4d8c3ccd2cbfa15af, type: 3}
+  outlineImage: {fileID: -1149777025877129289, guid: d3a767fee37565f428f85bc0f2dcc577, type: 3}
   prefab: {fileID: 324629506145604359, guid: 6e6fb2a5ae24e4949826a0d4e9f545fa, type: 3}
+  shootOffset: {x: 0, y: 0}
   GunFocusSpeed: 0.75
   MaxAccuracyVariance: 0.75
   GunUnFocusSpeed: 0.5
   GunRecoil: 0.6
   Damage: 25
+  Secondary: 0
   Automatic: 0
-  fireRate: 0.2
+  fireRate: 1
   reloadSpeed: 0
   currentAmmo: 8
   MaxAmmo: 8

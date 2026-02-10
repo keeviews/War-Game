@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class VisionCone : MonoBehaviour
 {
+    [SerializeField] EnemyController enemyController;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            GetComponentInParent<EnemyController>().AgroEnemy();
+            enemyController.Agro = true;
         }
 
     }
@@ -15,7 +17,7 @@ public class VisionCone : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GetComponentInParent<EnemyController>().DeAgroEnemy();
+            enemyController.Agro = false;
         }
     }
 }
