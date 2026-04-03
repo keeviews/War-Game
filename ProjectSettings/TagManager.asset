@@ -18,6 +18,10 @@ TagManager:
   - MediumAmmo
   - LargeAmmo
   - BulletSoundBarrier
+  - Roof
+  - Building
+  - Entrance
+  - Exit
   layers:
   - Default
   - TransparentFX
@@ -29,7 +33,7 @@ TagManager:
   - CoverPoints
   - Enemy
   - PickUp
-  - 
+  - Building
   - 
   - 
   - 

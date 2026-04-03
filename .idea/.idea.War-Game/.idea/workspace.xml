@@ -1,54 +1,400 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c87787e3-0ff3-4536-87e6-ec33f09196c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/copilot-instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/copilot-instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AstarPathfindingProject/Core/AstarPath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Guns/M1 Garand.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guns/M1 Garand.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Guns/M1Garand.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guns/M1Garand.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Guns/Tommy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guns/Tommy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Guns/Tommy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Guns/Tommy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/tommygun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/tommygun.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PromptSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PromptSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.War-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.War-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CoverPointScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CoverPointScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Grass_swamp_dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Grass_swamp_dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Grass_swamp_lighted.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Grass_swamp_lighted.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Grass_swamp_normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Grass_swamp_normal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_bluetint.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_bluetint.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_corrupted.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_corrupted.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_darked.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_darked.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_desatured.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_desatured.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_lighted.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_lighted.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_normal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_overcorrupted.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_Grass_overcorrupted.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_lighted_rocks.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_lighted_rocks.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_normal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_over_corrupted.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_over_corrupted.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_overdesatured.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_dirt_overdesatured.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_004.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_004.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_005.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_005.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_006.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_006.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_dark_step_008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_004.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_004.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_005.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_005.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_006.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_006.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_normal_step_008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_004.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_004.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_005.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_005.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_006.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_006.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/Material_snow_super_dark_step_008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_clay.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_clay.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_claydarked.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_claydarked.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_corrupted.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_corrupted.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_corrupted_light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_corrupted_light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_desatured.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_desatured.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_desatured_rocks.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Demo/Materials/material_dirt_desatured_rocks.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_clay/dirt_clay_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_claydarked/dirt_claydarked_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted/dirt_corrupted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_corrupted_lighted/dirt_corrupted_lighted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured/dirt_desatured_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_desatured_rocks/dirt_desatured_rocks_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted/dirt_lighted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_lighted_rocks/dirt_lighted_rocks_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_normal/dirt_normal_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overcorrupted/dirt_overcorrupted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_bluetint/Grass_bluetint_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_corrupted/Grass_corrupted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_darked/Grass_darked_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_desatured/Grass_desatured_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_lighted/Grass_lighted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_normal/Grass_normal_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_dark/Grass_swamp_dark_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_lighted/Grass_swamp_lighted_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_down.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Grass/Grass_swamp_normal/Grass_swamp_normal_up.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_dark_step_008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_step_008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Handpainted_Grass_and_Ground_Textures/Textures/Snow/snow_super_dark_step_008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/WoodWall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/WoodWall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PromptSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PromptSystem.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBulletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyBulletController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GunRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GunSO.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Guns.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolNew.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolNew.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBulletController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyBulletController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunSO.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunSO.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Guns.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolNew.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolNew.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/SairaStencilOne-Regular SDF Bold.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/SairaStencilOne-Regular SDF Bold.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/SairaStencilOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/SairaStencilOne-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VisionCone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VisionCone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/Assister.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/Assister.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AnalyzersLite.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.AnalyzersLite.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Completion.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Completion.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.CompletionInternals.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.CompletionInternals.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Logger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Logger.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.ProjectData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.ProjectData.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.RoslynAnalyzerManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.RoslynAnalyzerManager.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Synchronizer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.Synchronizer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.VSIXLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/ExternalReferences/Meryel.UnityCodeAssist.VSIXLibrary.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/Input/UnityInputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/Input/UnityInputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/MQTTnetPublisher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/MQTTnetPublisher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/Monitor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/Monitor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/UnityClassExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/Editor/UnityClassExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/com.merry-yellow.code-assist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UpdatePathFinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UpdatePathFinder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VisionCone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VisionCone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Recovery.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Recovery.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Recovery/0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/0.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Recovery/0.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
@@ -57,29 +403,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="1" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="39SWMWBppkRjjJo6j5a58AepZMj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Player.Unity.exe (AssetImportWorker0).executor&quot;: &quot;Debug&quot;,
+    &quot;Device#class com.jetbrains.rider.plugins.unity.run.devices.UnityEditorDeviceKind#com.jetbrains.rider.plugins.unity.run.devices.UnityDevicesProvider#Unity Attach To: Attach to&quot;: &quot;Unity Editor&quot;,
+    &quot;DeviceKind#com.jetbrains.rider.plugins.unity.run.devices.UnityDevicesProvider&quot;: &quot;Unity Editor&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Unity Attach To.Attach to.executor&quot;: &quot;Debug&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.views.appearance&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\Chris\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="77d3120c-475c-4573-8809-8d46574bcd5a" reportId="War-Game/qodana/2026-02-09" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Attach To.Attach to">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../CreatedGames/WW2 Game - Build 1\War Game.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\CreatedGames\WW2 Game - Build 1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\EditorInstall\6000.2.1f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\EditorInstall\6000.3.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\Downloads\AdventurePSX-main\AdventurePSX-main\War-Game -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Downloads\AdventurePSX-main\AdventurePSX-main\War-Game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -89,7 +480,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="D:\Unity\EditorInstall\6000.2.1f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="D:\Unity\EditorInstall\6000.3.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Downloads\AdventurePSX-main\AdventurePSX-main\War-Game -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Downloads\AdventurePSX-main\AdventurePSX-main\War-Game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -114,6 +505,21 @@
     <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
       <method v="2" />
     </configuration>
+    <configuration name="Unity.exe (AssetImportWorker0)" type="UnityPlayer" factoryName="UnityAttachToPlayer" temporary="true">
+      <option name="host" value="127.0.0.1" />
+      <option name="pid" value="22988" />
+      <option name="playerId" value="EditorHelper(Unity.exe-AssetImportWorker0-War-Game)" />
+      <option name="playerInstanceId" value="War-Game" />
+      <option name="port" value="56988" />
+      <option name="projectName" value="War-Game" />
+      <option name="roleName" value="AssetImportWorker0" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Attach to Unity Player.Unity.exe (AssetImportWorker0)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -123,20 +529,33 @@
       <option name="presentableId" value="Default" />
       <updated>1770688912321</updated>
       <workItem from="1770688915988" duration="331000" />
+      <workItem from="1770689921441" duration="3764000" />
+      <workItem from="1770694023429" duration="564000" />
+      <workItem from="1770781029112" duration="1633000" />
+      <workItem from="1770857804127" duration="3572000" />
+      <workItem from="1771462284150" duration="3806000" />
+      <workItem from="1772067403959" duration="2965000" />
+      <workItem from="1773277511058" duration="4074000" />
+      <workItem from="1774051333031" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2" />
+    <option name="LAST_CHUNK_COMMIT_MESSAGE" value="Update 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
