@@ -192,8 +192,13 @@ public class EnemyController : MonoBehaviour
 
     private PlayerScript playerScript;
 
+    private AIDestinationSetter aIDestinationSetter;
+
+    private Transform targetTransform;
+
     private void Start()
     {
+        targetTransform = new GameObject($"EnemyTarget_{gameObject.transform.parent.name}").transform;
 
         print("Enemy Spawned");
 
@@ -219,6 +224,7 @@ public class EnemyController : MonoBehaviour
                 if (sibling.CompareTag("Point"))
                 {
                     points.Add(sibling.gameObject);
+                    sibling.SetParent(null);
                 }
             }
         }
@@ -226,9 +232,16 @@ public class EnemyController : MonoBehaviour
         if (points.Count > 0)
         {
             target = points[0].transform.position;
+            print(points[0]);
         }
 
         MaxAccuracyVariance = weapon.MaxAccuracyVariance;
+
+        AstarPath.FindAstarPath();
+
+        AstarPath.active.Scan();
+
+        aIDestinationSetter = GetComponent<AIDestinationSetter>();
     }
 
     Vector3 GetRandomPositionAroundSound()
@@ -347,7 +360,8 @@ public class EnemyController : MonoBehaviour
         }
 
         Debug.Log(enemyState);
-        aiPath.destination = target;
+        targetTransform.position = target;
+        aIDestinationSetter.target = targetTransform;
         aiPath.maxSpeed = movespeed;
 
         distanceToTarget = Vector2.Distance(target, transform.position);
@@ -360,14 +374,16 @@ public class EnemyController : MonoBehaviour
                 if (isPointBased)
                 {
                     target = points[pointcount].transform.position;
+                    aIDestinationSetter.target = targetTransform;
 
-                    if (distanceToTarget < stopDistanceThreshold)
+                if (distanceToTarget < stopDistanceThreshold)
                     {
                         pointcount += 1;
                     }
                     else
                     {
-                        aiPath.destination = target;
+                        targetTransform.position = target;
+                        aIDestinationSetter.target = targetTransform;
                     }
 
                     if (pointcount >= points.Count)
@@ -392,7 +408,7 @@ public class EnemyController : MonoBehaviour
                 AtShootPosition = arrived && target == LastKnownPosition;
 
                 // did we get to the random point we were investigating?
-                if (arrived && target == randomInvestigationPosition)
+                if (arrived && target ==randomInvestigationPosition)
                 {
                     randomInvestigationPosition = GetRandomPositionAroundSound();
                     if (
