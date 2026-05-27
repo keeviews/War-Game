@@ -22,6 +22,10 @@ TagManager:
   - Building
   - Entrance
   - Exit
+  - Obstacles
+  - Walls
+  - EnemyEntrance
+  - EnemyExit
   layers:
   - Default
   - TransparentFX
@@ -34,6 +38,8 @@ TagManager:
   - Enemy
   - PickUp
   - Building
+  - Level2
+  - Level3
   - 
   - 
   - 
@@ -52,9 +58,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Wall
   m_SortingLayers:
   - name: Default
     uniqueID: 0

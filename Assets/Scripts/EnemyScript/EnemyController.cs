@@ -100,6 +100,8 @@ public class EnemyController : MonoBehaviour
     private CircleCollider2D boxcollider;
 
     [SerializeField] GameObject shotPoint;
+
+    [SerializeField] CircleCollider2D circlcollider;
     
     void LevelsinBuilding()
     {
@@ -141,22 +143,31 @@ public class EnemyController : MonoBehaviour
             enemycurrentBuilding = collision.gameObject;
             LevelsinBuilding();
         }
-        if (!inStairCollider)
+        if (enemycurrentFloor != playerScript.currentFloor)
         {
-            if (collision.CompareTag("Entrance") && boxcollider.IsTouching(collision))
+            if (collision.CompareTag("EnemyEntrance") && boxcollider.IsTouching(collision) && enemyfloorSpot < playerScript.floorSpot)
             {
                 stairTimer = 1f;
                 enemyfloorSpot += 1;
                 enemycurrentFloor = enemyfloors[enemyfloorSpot];
                 inStairCollider = true;
             }
-            if (collision.CompareTag("Exit") && boxcollider.IsTouching(collision))
+            if (collision.CompareTag("EnemyExit") && boxcollider.IsTouching(collision) && enemyfloorSpot > playerScript.floorSpot)
             {
                 stairTimer = 1f;
                 enemyfloorSpot -= 1;
                 enemycurrentFloor = enemyfloors[enemyfloorSpot];
                 inStairCollider = true;
             }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Building") && !boxcollider.IsTouching(collision))
+        {
+            enemyfloors.Clear();
+            enemycurrentBuilding = null;
         }
     }
 
@@ -275,13 +286,17 @@ public class EnemyController : MonoBehaviour
         return child;
     }
 
+    int graphMask = 1;
+
     private void Update()
     {
-/*        if (enemycurrentBuilding == playerScript.currentBuilding)
+        if (enemycurrentBuilding == playerScript.currentBuilding)
         {
             if (enemycurrentFloor == playerScript.currentFloor)
             {
                 enemyArt.SetActive(true);
+                graphMask = 1 << enemyfloorSpot;
+                circlcollider.isTrigger = false;
             }
             else
             {
@@ -290,14 +305,30 @@ public class EnemyController : MonoBehaviour
                 if (enemyfloorSpot < playerScript.floorSpot)
                 {
 
-                    target = FindChildWithTag(enemycurrentFloor, "Entrance").transform.position;
+                    target = playerScript.currentFloor.GetComponent<FloorScript>().EnemyEntrance.transform.position;
+                    graphMask = 1 << (enemyfloorSpot + 1);
+              
+                    circlcollider.isTrigger = true;
                 }
                 else
                 {
-                    target = FindChildWithTag(enemycurrentFloor, "Exit").transform.position;
+
+                    target = playerScript.currentFloor.GetComponent<FloorScript>().EnemyExit.transform.position;
+                    graphMask = 1 << enemyfloorSpot;
+                    circlcollider.isTrigger = false;
                 }
             }
-        }*/
+        }
+        
+        if (enemycurrentBuilding == null)
+        {
+            enemyArt.SetActive(true);
+            graphMask = 1 << 0;
+            circlcollider.isTrigger = false;
+        }
+
+        gameObject.GetComponent<Seeker>().graphMask = graphMask;
+
 
         if (Health <= 0)
         {
@@ -520,12 +551,11 @@ public class EnemyController : MonoBehaviour
                     bullet.GetComponent<EnemyBulletController>().InitializeEnemy(weapon, crosshairmovmentAmount);
                     shootTime = 1f;
                 }
-/*
                 if (attackLength <= 0)
                 {
                     enemyState = EnemyState.Cover;
                     attackLength = Random.Range(2f, 3f);
-                }*/
+                }
 
                 if (hit.collider != null)
                 {
@@ -548,10 +578,7 @@ public class EnemyController : MonoBehaviour
 
     GameObject findClosestCoverPoint()
     {
-        GameObject[] objs = GameObject
-            .FindGameObjectWithTag("GameManager")
-            .GetComponent<GameManager>()
-            .coverPoints;
+        GameObject[] objs = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().coverPoints;
 
         GameObject closestEnemy = null;
         float closestDistance = 0f;

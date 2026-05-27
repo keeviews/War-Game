@@ -11,7 +11,7 @@ public class PlayerScript : MonoBehaviour
     Vector2 movement;
     Rigidbody2D rb;
 
-    [SerializeField] CircleCollider2D playerCollider;
+    [SerializeField] Collider2D circleColl;
         
     [SerializeField]
     float movespeed = 100f;
@@ -164,15 +164,16 @@ public class PlayerScript : MonoBehaviour
         right.transform.localPosition = rtemp;
 
 
-        
-        if (stairTimer > 0)
-        {
-            stairTimer -= Time.deltaTime;
-            inStairCollider = true;
-        }
-        else{
-            inStairCollider = false;
-        }
+
+        //if (stairTimer > 0)
+        //{
+        //    stairTimer -= Time.deltaTime;
+        //    inStairCollider = true;
+        //}
+        //else
+        //{
+        //    inStairCollider = false;
+        //}
     }
 
     [SerializeField]private List<GameObject> floors;
@@ -199,49 +200,51 @@ public class PlayerScript : MonoBehaviour
         {
             floor.SetActive(false);
         }
-        
         currentFloor.SetActive(true);
         
     }
     
-    bool inStairCollider = false;
+    //bool inStairCollider = false;
     
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Building") && playerCollider.IsTouching(other))
+
+        if (circleColl.IsTouching(other) && other.CompareTag("Building"))
         {
+            if (currentBuilding == other.gameObject) return;
+
+            print("Entered Building");
             floors.Clear();
-            currentBuilding =  other.gameObject;
+            currentBuilding = other.gameObject;
             LevelsinBuilding();
             var roof = other.transform.Find("Roof").gameObject;
             var mat = roof.GetComponent<SpriteRenderer>();
             mat.DOFade(0, 1f);
         }
 
-        if(!inStairCollider)
+        if (other.CompareTag("Entrance") && circleColl.IsTouching(other))
         {
-            if (other.CompareTag("Entrance") && playerCollider.IsTouching(other))
-            {
-                stairTimer = 1f;
-                floorSpot += 1;
-                currentFloor = floors[floorSpot];
-                activateFloor();
-                inStairCollider = true;
-            }
-            if (other.CompareTag("Exit") && playerCollider.IsTouching(other))
-            {
-                stairTimer = 1f;
-                floorSpot -= 1;
-                currentFloor = floors[floorSpot];
-                activateFloor();
-                inStairCollider = true;
-            }
+            //stairTimer = 1f;
+            floorSpot += 1;
+            currentFloor = floors[floorSpot];
+            activateFloor();
+            //inStairCollider = true;
+        }
+        
+        if (other.CompareTag("Exit") && circleColl.IsTouching(other))
+        {
+            print("Exiting");
+            //stairTimer = 1f;
+            floorSpot -= 1;
+            currentFloor = floors[floorSpot];
+            activateFloor();
+            //inStairCollider = true;
         }
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (!playerCollider.IsTouching(other) && other.CompareTag("Building"))
+        if (!circleColl.IsTouching(other) && other.CompareTag("Building"))
         {
             var roof = other.transform.Find("Roof").gameObject;
             var mat = roof.GetComponent<SpriteRenderer>();
@@ -249,11 +252,13 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if ((other.CompareTag("Entrance") || other.CompareTag("Exit")))
-        {
-            inStairCollider = false;
-        }
-    }
+    //private void OnTriggerExit2D(Collider2D other)
+    //{
+        //if (!circleColl.IsTouching(other) && other.CompareTag("Building"))
+        //{
+        //    var roof = other.transform.Find("Roof").gameObject;
+        //    var mat = roof.GetComponent<SpriteRenderer>();
+        //    mat.DOFade(1, 1f);
+        //}
+    //}
 }

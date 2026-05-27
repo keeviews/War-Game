@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 1145843676782104299}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4100003, y: 1.3699999, z: 0}
+  m_LocalPosition: {x: -1.22, y: 3.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -238,7 +238,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1982227127784314324, guid: 4f5af054622914a4e864d16417b22a46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -341,7 +341,7 @@ Transform:
   m_GameObject: {fileID: 4966419628829052696}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5900002, y: -1.02, z: 0}
+  m_LocalPosition: {x: -0.99, y: -6.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -361,7 +361,8 @@ GameObject:
   - component: {fileID: 2039302036567896088}
   - component: {fileID: 2101573750556480525}
   - component: {fileID: 5869674427795163384}
-  - component: {fileID: 2071098834117530546}
+  - component: {fileID: 2295936672483096334}
+  - component: {fileID: 6140390758192914901}
   m_Layer: 8
   m_Name: Enemy (Points)
   m_TagString: Untagged
@@ -553,6 +554,7 @@ MonoBehaviour:
   poolNew: {fileID: 0}
   weapon: {fileID: 11400000, guid: ad346c6449e357949aec0a44c003b09a, type: 2}
   shotPoint: {fileID: 3111572313057764367}
+  circlcollider: {fileID: 2295936672483096334}
   pause: 2
   investigateTime: 5
 --- !u!50 &5869674427795163384
@@ -582,7 +584,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &2071098834117530546
+--- !u!58 &2295936672483096334
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -592,7 +594,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: abb8a063904b3a646b5afab901c0c95f, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -617,4 +619,18 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.74
+  m_Radius: 0.5
+--- !u!114 &6140390758192914901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8244890418021688152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.AIDestinationSetter
+  version: 1
+  target: {fileID: 0}

@@ -1,0 +1,11 @@
+﻿<Solution>
+  <Project Path="MerryYellow.CodeAssist.Editor.csproj" />
+  <Project Path="AstarPathfindingProject.csproj" />
+  <Project Path="FastScriptReload.Editor.csproj" />
+  <Project Path="PackageToolsEditor.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="AstarPathfindingProjectEditor.csproj" />
+  <Project Path="FastScriptReload.Runtime.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>
